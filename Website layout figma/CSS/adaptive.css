@@ -1,0 +1,221 @@
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 700px;
+        position: relative;
+    }
+
+    .link {
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+
+    .header-title {
+        font-size: 92px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 650px;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    .menu-burger {
+        display: block;
+        margin-right: 40px;
+    }
+    
+
+    .header-title {
+        width: 234px;
+        height: 448px;
+        font-size: 92px;
+
+        text-align: left;
+        word-wrap: break-word;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h2:after {
+        width: 120px;
+        height: 6px;
+    }
+
+    .slider-container {
+        width: 310px;
+        height: 340px;
+    }
+
+    .slide-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .slide-price {
+        font-size: 30px;
+    }
+
+    .changing-buttons {
+        display: none;
+    }
+
+    .slides-indicator {
+        display: block;
+        margin-top: 15px;
+        height: 10px;
+        flex-shrink: 0;
+    }
+
+    .video-container {
+        width: 100%;
+    }
+
+    .video-player {
+        max-width: 80%;
+    }
+
+    .paragraphs-container {
+        position: absolute;
+        z-index: 1;
+        text-align: center;
+
+        width: 238px;
+        height: 294px;
+        flex-shrink: 0;
+        margin: 111px 71px 43px 71px;
+
+        word-wrap: break-word;
+    }
+
+    #povar {
+        z-index: 0;
+        margin-right: 170px;
+        opacity: 0.4;
+    }
+
+    .about-text-container {
+        flex-shrink: 0;
+    }
+
+    .about-text-container p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        max-width: 310px;
+        position: relative;
+    }
+
+    .prices {
+        height: 551px;
+    } 
+
+    .video-player {
+        width: 310px;
+        height: 178px;
+        justify-content: center;
+        flex-shrink: 0;
+        border-radius: 10px;
+        margin-bottom: 73px;
+        align-items: center;
+
+    }
+
+    video {
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);    
+        display: none;
+    }
+    
+
+    .form-back {
+        width: 100%;
+    }
+
+    .header-wrapper {
+        justify-content: left;
+    }
+
+    .prices h2, .about h2 {
+        margin-top: 50px;
+    }
+
+    .video h2, .form-back h3 {
+        margin-top: 40px;
+    }
+
+    .form-back h3 {
+        font-size: 30px;
+        margin-bottom: 36px;
+    }
+
+    .form-ref {
+        margin-top: 35px;
+    }
+
+    .input-box {
+        width: 310px;
+    }
+
+    .input-box input {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .footer-title {
+        font-size: 30px;
+    }
+
+    .slider-line {
+        height: 340px;
+        width: 930px;
+    }
+
+    .slider-container {
+        width: 310px;
+        height: 340px;
+        margin-top: 20px;
+    }
+
+    #potato {
+        width: 286px;
+        height: 190px;
+    
+        margin: 0 12px;
+        margin-top: 20px;
+    }
+    
+    #potato_v {
+        width: 286px;
+        height: 209px;
+    
+        margin: 0 12px;
+        margin-top: 11px;
+    }
+    
+    #potato_h {
+        width: 292px;
+        height: 207px;
+    
+        margin: 0 9px;
+        margin-top: 7px;
+    }
+}

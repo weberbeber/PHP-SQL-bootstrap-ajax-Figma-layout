@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="preload" href="fonts/montserrat-v26-cyrillic_latin-500.woff2" as="font">
+
+    <title>Картошечка</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header class="header">   
+        <div class="container header-container">
+            <div class="header-row">
+                <a href="#" class="logo"></a>
+
+                <nav>
+                    <a class="link" href="#prices-class">
+                        Цены
+                    </a>
+                    <a class="link nav-ref" href="#video-class">
+                        Видео
+                    </a>
+                    <a class="link" href="#about-class">
+                        О нас
+                    </a>
+                    <button class="link order-ref" onclick="location.href='#form-send';">
+                        Оставить заявку
+                    </button>
+                </nav>
+
+
+                <!-- <div class="menuburger">
+                    <nav>
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </nav>
+                </div> -->
+                <button hidden class="menu-burger"></button>
+            </div>
+
+            <div class="header-wrapper">
+                <h1 class="header-title">
+                    КАРТОШЕЧКА
+                </h1>
+            </div>
+        </div>
+
+    </header>
+    
+    <main>
+        <section class="prices" id="prices-class">
+            <div class="container">
+                <div class="prices-wrapper">
+                    <h2>Цены</h2>
+
+                    <div class="slider-container" id="slider">
+                        <div class="slider-line">
+                            <div class="slide">
+                                <img src="images/image 4.svg" id="potato" alt="">
+                                <h4 class="slide-title">Столовый картофель</h4>
+                                <p class="slide-price">142 &#8381</p>
+                            </div>
+                            <div class="slide">
+                                <img src="images/image 4 VP.svg" id="potato_v" alt="">
+                                <h4 class="slide-title">Деревенский картофель</h4>
+                                <p class="slide-price">129 &#8381</p>
+                            </div>
+                            <div class="slide">
+                                <img src="images/image 4 HP.svg" id="potato_h" alt="">
+                                <h4 class="slide-title">Домашний картофель</h4>
+                                <p class="slide-price">133 &#8381</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="changing-buttons">
+                        <button class="slider-button slider-prev"></button>
+                        <button class="slider-button slider-next"></button>
+                    </div>
+
+                    <div hidden class="slides-indicator">
+                        <img class="indicator" src="images/slider_ind_act.svg" alt="">
+                        <img class="indicator" src="images/slider_ind.svg" alt="">
+                        <img class="indicator" src="images/slider_ind.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video" id="video-class">
+            <div class="video-container">
+                <h2>Видео</h2>
+
+                <div class="video-player">
+                    <video src="video/booktree.mp4" controls poster="images/Poster_video.png"></video>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about-class">
+                <div class="about-wrapper">
+                    <h2>О нас</h2>
+                    <div class="about-text-container">
+                        <img src="images/about_main.png" id="povar" alt="">
+    
+                        <div class="paragraphs-container">
+                            <p>Если картошка, запеченная в духовке, получается не всегда такой как хочется (сухая или наоборот мокрая, сыроватая внутри, недостаточно удачная по специям) — дайте шанс этому рецепту. </p> <br>
+                            <p>Такая картошечка по-деревенски стабильно получается очень вкусная, хрустящая снаружи и мягкая, как пюрешка внутри, ароматная — в общем пальчики оближешь. Рецепт у меня простой, но с технологическим секретом, который и решает дело.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="form-back" id="form-send">
+                            <h3 class="form-title">Оставить заявку</h3>
+
+                            <div class="input-box">
+                                <div class="form-input">
+                                    <input type="text" name="name" required="required">
+                                    <span>Имя</span>
+                                </div>
+                                
+                                <div class="form-input">
+                                    <input type="tel" name="phoneNumber" required="required">
+                                    <span>Номер телефона</span>
+                                </div>
+                            </div>
+
+                            <button class="order-ref form-ref">Оставить заявку</button>
+                    </div>
+                </div>  
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <h4 class="footer-title">КАРТОШЕЧКА</h4>
+                <div class="footer-refs-container">
+                    <a class="footer-refs vk-link" href="https://vk.com/">
+                    </a>
+                    <a class="footer-refs facebook-link" href="https://www.facebook.com/">
+
+                    </a>
+                    <a class="footer-refs twitter-link" href="https://twitter.com/">
+
+                    </a>
+                    <a class="footer-refs inst-link" href="https://www.instagram.com/">
+
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
